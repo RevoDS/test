@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					E99E43EA1C5E36F20027D507 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K7PS8GSXX8;
 					};
 					E99E43FE1C5E36F20027D507 = {
 						CreatedOnToolsVersion = 7.2;
@@ -397,10 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RedBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasPlourde.RedBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RedBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasPlourde.RedBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				E99E44151C5E36F20027D507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99E44161C5E36F20027D507 /* Build configuration list for PBXNativeTarget "RedBlueTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				E99E44181C5E36F20027D507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99E44191C5E36F20027D507 /* Build configuration list for PBXNativeTarget "RedBlueUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				E99E441B1C5E36F20027D507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

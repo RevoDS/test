@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var habs: UIImageView!
+    @IBOutlet weak var bruins: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func HideHabsLogo(sender: AnyObject) {
+        habs.hidden = true
+        
+    }
+    
+    @IBAction func HideBruinsLogo(sender: AnyObject) {
+        bruins.hidden = true
+    }
+    
 
 }
 
