@@ -24,15 +24,31 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func HideHabsLogo(sender: AnyObject) {
-        habs.hidden = true
-        
-    }
+    var IsHabsHidden = false
+    var IsBruinsHidden = false
     
-    @IBAction func HideBruinsLogo(sender: AnyObject) {
+            @IBAction func HideHabsLogo(sender: AnyObject) {
+                if IsHabsHidden == false {
+                    habs.hidden = true
+                    IsHabsHidden = true
+                    } else {
+//    @IBAction func HideHabsLogo(sender: AnyObject) {
+                    habs.hidden = false
+                    IsHabsHidden = false
+    }
+    }
+//    
+   @IBAction func HideBruinsLogo(sender: AnyObject) {
+    if IsBruinsHidden == false {
         bruins.hidden = true
+        IsBruinsHidden = true
+    } else {
+        bruins.hidden = false
+        IsBruinsHidden = false
     }
-    
+    }
+
 
 }
 
+//
